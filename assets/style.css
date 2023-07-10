@@ -91,8 +91,9 @@ body {
 }
 
 #gallery {
-	/*	min-height: 100vh; */
+	min-height: 100vh;
 }
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -109,6 +110,7 @@ body {
 	color: #000
 }
 .item-column {
+	margin: auto;
 	width: 440px;
 	height: 440px;
 	margin-bottom: 0 !important;
@@ -355,3 +357,12 @@ input[type="submit"] {
 	}
 }
 
+@media all and (max-width: 450px) {
+	.item-column {
+		margin: auto;
+		width: 420px;
+		height: 420px;
+		margin-bottom: 0 !important;
+		padding: 0;
+	}
+}
