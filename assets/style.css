@@ -40,6 +40,12 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
+}
+
+.active img{
+	width: 1200px;
+	height: auto;
 }
 
 #about {
@@ -68,8 +74,8 @@ body {
 }
 
 .picture img {
-	width: 100%;
-
+	width: 408px;
+	height: 408px;
 }
 #about-me {
 	flex: 2
@@ -109,6 +115,12 @@ body {
 .nav-pills .nav-link {
 	color: #000
 }
+
+.social-link{
+	width: 20px;
+	height: 20px;
+}
+
 .item-column {
 	margin: auto;
 	width: 440px;
@@ -214,6 +226,7 @@ body {
 	right: 0;
 	z-index: -1;
 }
+
 .form-container {
 	flex : 2;
 
