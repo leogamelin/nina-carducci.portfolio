@@ -136,8 +136,6 @@ body {
 }
 
 .gallery-item {
-	width: 420px;
-	height: 420px;
 	object-fit: cover;
 	padding: .5em;
 }
